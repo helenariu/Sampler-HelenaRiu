@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"> </script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="pare">
+        <div id="text">
+            <p id="textchoose"> Choose the color</p>
+   
+        </div> 
+        <div id="botonscanviarcolor">
+            <div id="botorosa"></div>
+            <div id="botonegre"></div>
+            <div id="botovermell"></div>
+        </div>
+        <div id="textvideo">
+
+            <p id="textpress"> Press the button to PLAY a random song
+            </p>
+
+        </div>
+        <video controls id="musica0">
+            <source src="video/amywineouse.mp4" type="video/mp4">
+        </video>
+        <video controls id="musica1">
+            <source src="video/amy2.mp4" type="video/mp4">
+        </video>
+        <video controls id="musica2">
+            <source src="video/amy3.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="botoplay" onclick="reprodueixvideo()">
+        <img id="play" src="img/botoplay.png">
+
+
+    </div>
+    <div id="textinstruments">
+
+        <p>
+
+            Press the buttons to make your REMIX</p>
+    </div>
+    <div id="botonsinstumentsfila1">
+        <div id="trompeta">
+            <audio nocontrols id="audiotrompeta">
+                <source src="audio/trompeta.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+        <div id="tambor">
+
+            <audio nocontrols id="audiotambor">
+                <source src="audio/tambor.mp3" type="audio/mpeg">
+            </audio>
+
+
+        </div>
+        <div id="guitarra">
+
+            <audio nocontrols id="audioguitarra">
+                <source src="audio/guitarra.mp3" type="audio/mpeg">
+            </audio>
+
+
+
+        </div>
+    </div>
+
+    <div id="botonsinstumentsfila2">
+        <div id="piano">
+
+            <audio nocontrols id="audiopiano">
+                <source src="audio/%20piano.mp3" type="audio/mpeg">
+            </audio>
+
+
+        </div>
+        <div id="saxofon">
+
+            <audio nocontrols id="audiosaxofon">
+                <source src="audio/saxofon.mp3" type="audio/mpeg">
+            </audio>
+
+
+
+        </div>
+        <div id="maracas">
+
+            <audio nocontrols id="audiomaracas">
+                <source src="audio/maracas.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+    </div>
+
+    <div id="playagain">
+    
+
+        <a id="textplayagain" href="index.html"> PLAY AGAIN </a>
+
+    </div>
+
+    <script src="js/codi.js"></script>
+</body></html>

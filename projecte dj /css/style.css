@@ -1,0 +1,264 @@
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+}
+
+p {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    text-align: center; 
+}
+
+#text {
+    text-align: center; 
+    
+    
+
+}
+
+#boto1 {
+    margin-left: 40%;
+
+}
+
+
+
+#trompeta {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    background-color: black;
+    background-image: url(../img/trompeta.png);
+    background-size: cover;
+    background-position: center center;
+    border-style: solid; 
+    border-color: white; 
+    border-radius: 30px;
+    cursor: pointer; 
+}
+
+#play {
+    width: 65%;
+    
+
+}
+
+#botoplay {
+   display: flex; 
+    flex-flow: column; 
+    margin-left: 60px; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    margin-top: -80px,
+   
+}
+
+#tambor {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    background-image: url(../img/tambor.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: black; 
+    border-style: solid; 
+    border-color: white;
+    border-radius: 30px;
+    cursor: pointer; 
+}
+
+#guitarra {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    background-image: url(../img/guitarra.svg);
+    background-size: cover;
+    background-position: center center;
+    background-color: black; 
+    border-style: solid; 
+    border-color: white;
+    border-radius: 30px;
+    cursor: pointer; 
+}
+
+#piano {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    background-image: url(../img/piano.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: black; 
+    border-style: solid; 
+    border-color: white;
+    border-radius: 30px;
+    cursor: pointer; 
+}
+
+#saxofon {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 30px; 
+    background-image: url(../img/saxofon.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: black; 
+    border-style: solid; 
+    border-color: white;
+    cursor: pointer; 
+}
+
+#maracas {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    background-image: url(../img/maracas.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: black; 
+    border-style: solid; 
+    border-color: white;
+    border-radius: 30px;
+    cursor: pointer; 
+}
+
+#bototrompeta {
+    border-color: white;
+    border-bottom-width: 20px; 
+
+}
+
+#botonsinstumentsfila1 {
+     display: none;
+    margin-top: 200px; 
+    height: 20vh; 
+   justify-content: center; 
+    
+}
+
+#botonsinstumentsfila2 {
+    display: none;
+    justify-content: center; 
+    margin-top: -70px; 
+    
+}
+
+#botorosa {
+    background-color: #990066;  
+    width: 60px; 
+    height: 60px; 
+    border-radius: 60px; 
+    border-color: #999933;
+    border-style:double; 
+    cursor: pointer; 
+}
+
+#botovermell {
+    background-color: #9c262c; 
+    width: 60px; 
+    height: 60px; 
+    margin-left: 30px; 
+    border-radius: 50px; 
+    border-color: #999933; 
+    border-style:double;
+    cursor: pointer; 
+ 
+
+}
+
+#botonegre {
+    background-color: black; 
+    width: 60px; 
+    height: 60px; 
+    margin-left: 30px; 
+    border-radius: 60px; 
+     border-color: #999933; 
+    border-style: double; 
+    cursor: pointer; 
+}
+
+#botonscanviarcolor {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px;
+    margin-bottom: 20px; 
+   
+}
+
+
+
+#musica {
+    display: none; 
+}
+
+#musica1 {
+    display: none;
+}
+
+#musica2 {
+    display: none;
+}
+
+#musica0 {
+    display: none;
+}
+
+video {
+    margin-top: 200px; 
+    border-style: solid; 
+    border-color: white;
+    border-radius: 30px;
+}
+
+#textinstruments {
+    display: none; 
+    margin-top: 50px; 
+}
+
+#playagain {
+    border-style: solid; 
+    border-color: white;
+    border-radius: 30px;
+    margin-top: 80px; 
+    display: none; 
+    cursor: pointer; 
+    background-color: black; 
+}
+
+#textplayagain {
+    font-size: 40px;
+    margin: auto;  
+    margin-left: 20px; 
+    margin-right: 20px; 
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    
+}
+
+#textpress {
+    margin-top: 80px; 
+    font-size: 50px; 
+}
+
+#textchoose {
+    font-size: 60px; 
+    margin-bottom: 50px; 
+}
+
+#volum {
+    background-color: darkgoldenrod;
+    height: 120px; 
+    width: 300px; 
+    display: none; 
+    
+}
